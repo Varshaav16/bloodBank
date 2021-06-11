@@ -41,7 +41,7 @@ Partial Class Form5
         Me.Label1.ForeColor = System.Drawing.Color.Purple
         Me.Label1.Location = New System.Drawing.Point(545, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(418, 60)
+        Me.Label1.Size = New System.Drawing.Size(408, 59)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "HOSPITAL DETAILS"
         '
@@ -54,7 +54,7 @@ Partial Class Form5
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(28, 132)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(251, 48)
+        Me.Label2.Size = New System.Drawing.Size(248, 47)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Hospital Name"
         '
@@ -67,7 +67,7 @@ Partial Class Form5
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(28, 224)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(278, 48)
+        Me.Label3.Size = New System.Drawing.Size(274, 47)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Hospital Address"
         '
@@ -80,7 +80,7 @@ Partial Class Form5
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(28, 316)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(412, 48)
+        Me.Label4.Size = New System.Drawing.Size(404, 47)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Hospital Contact Number"
         '
@@ -93,7 +93,7 @@ Partial Class Form5
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(28, 407)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(214, 48)
+        Me.Label5.Size = New System.Drawing.Size(207, 47)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Blood Group"
         '
@@ -138,7 +138,7 @@ Partial Class Form5
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(347, 88)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Save and Next"
+        Me.Button1.Text = "Save"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Form5
