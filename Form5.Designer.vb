@@ -26,19 +26,19 @@ Partial Class Form5
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Txt_hname = New System.Windows.Forms.TextBox()
+        Me.Txt_hadd = New System.Windows.Forms.TextBox()
+        Me.Txt_hphno = New System.Windows.Forms.TextBox()
         Me.BtnSave = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.Txt_opos = New System.Windows.Forms.TextBox()
+        Me.Txt_Apos = New System.Windows.Forms.TextBox()
+        Me.Txt_ABneg = New System.Windows.Forms.TextBox()
+        Me.Txt_Bneg = New System.Windows.Forms.TextBox()
+        Me.Txt_Aneg = New System.Windows.Forms.TextBox()
+        Me.Txt_Oneg = New System.Windows.Forms.TextBox()
+        Me.Txt_ABpos = New System.Windows.Forms.TextBox()
+        Me.Txt_Bpos = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -99,29 +99,29 @@ Partial Class Form5
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Hospital Contact Number"
         '
-        'TextBox1
+        'Txt_hname
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(477, 103)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(841, 38)
-        Me.TextBox1.TabIndex = 5
+        Me.Txt_hname.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_hname.Location = New System.Drawing.Point(477, 103)
+        Me.Txt_hname.Name = "Txt_hname"
+        Me.Txt_hname.Size = New System.Drawing.Size(841, 38)
+        Me.Txt_hname.TabIndex = 5
         '
-        'TextBox2
+        'Txt_hadd
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(477, 203)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(841, 38)
-        Me.TextBox2.TabIndex = 6
+        Me.Txt_hadd.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_hadd.Location = New System.Drawing.Point(477, 203)
+        Me.Txt_hadd.Name = "Txt_hadd"
+        Me.Txt_hadd.Size = New System.Drawing.Size(841, 38)
+        Me.Txt_hadd.TabIndex = 6
         '
-        'TextBox3
+        'Txt_hphno
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox3.Location = New System.Drawing.Point(477, 287)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(841, 38)
-        Me.TextBox3.TabIndex = 7
+        Me.Txt_hphno.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_hphno.Location = New System.Drawing.Point(477, 287)
+        Me.Txt_hphno.Name = "Txt_hphno"
+        Me.Txt_hphno.Size = New System.Drawing.Size(841, 38)
+        Me.Txt_hphno.TabIndex = 7
         '
         'BtnSave
         '
@@ -148,69 +148,69 @@ Partial Class Form5
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "O+"
         '
-        'TextBox4
+        'Txt_opos
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox4.Location = New System.Drawing.Point(256, 468)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(89, 57)
-        Me.TextBox4.TabIndex = 11
+        Me.Txt_opos.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_opos.Location = New System.Drawing.Point(256, 468)
+        Me.Txt_opos.Name = "Txt_opos"
+        Me.Txt_opos.Size = New System.Drawing.Size(89, 57)
+        Me.Txt_opos.TabIndex = 11
         '
-        'TextBox5
+        'Txt_Apos
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox5.Location = New System.Drawing.Point(561, 475)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(98, 57)
-        Me.TextBox5.TabIndex = 13
+        Me.Txt_Apos.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Apos.Location = New System.Drawing.Point(561, 475)
+        Me.Txt_Apos.Name = "Txt_Apos"
+        Me.Txt_Apos.Size = New System.Drawing.Size(98, 57)
+        Me.Txt_Apos.TabIndex = 13
         '
-        'TextBox8
+        'Txt_ABneg
         '
-        Me.TextBox8.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox8.Location = New System.Drawing.Point(1174, 566)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(90, 57)
-        Me.TextBox8.TabIndex = 16
+        Me.Txt_ABneg.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_ABneg.Location = New System.Drawing.Point(1174, 566)
+        Me.Txt_ABneg.Name = "Txt_ABneg"
+        Me.Txt_ABneg.Size = New System.Drawing.Size(90, 57)
+        Me.Txt_ABneg.TabIndex = 16
         '
-        'TextBox9
+        'Txt_Bneg
         '
-        Me.TextBox9.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox9.Location = New System.Drawing.Point(840, 574)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(90, 57)
-        Me.TextBox9.TabIndex = 17
+        Me.Txt_Bneg.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Bneg.Location = New System.Drawing.Point(840, 574)
+        Me.Txt_Bneg.Name = "Txt_Bneg"
+        Me.Txt_Bneg.Size = New System.Drawing.Size(90, 57)
+        Me.Txt_Bneg.TabIndex = 17
         '
-        'TextBox10
+        'Txt_Aneg
         '
-        Me.TextBox10.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox10.Location = New System.Drawing.Point(561, 573)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(98, 57)
-        Me.TextBox10.TabIndex = 18
+        Me.Txt_Aneg.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Aneg.Location = New System.Drawing.Point(561, 573)
+        Me.Txt_Aneg.Name = "Txt_Aneg"
+        Me.Txt_Aneg.Size = New System.Drawing.Size(98, 57)
+        Me.Txt_Aneg.TabIndex = 18
         '
-        'TextBox11
+        'Txt_Oneg
         '
-        Me.TextBox11.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox11.Location = New System.Drawing.Point(256, 566)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(89, 57)
-        Me.TextBox11.TabIndex = 19
+        Me.Txt_Oneg.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Oneg.Location = New System.Drawing.Point(256, 566)
+        Me.Txt_Oneg.Name = "Txt_Oneg"
+        Me.Txt_Oneg.Size = New System.Drawing.Size(89, 57)
+        Me.Txt_Oneg.TabIndex = 19
         '
-        'TextBox12
+        'Txt_ABpos
         '
-        Me.TextBox12.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox12.Location = New System.Drawing.Point(1174, 471)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(90, 57)
-        Me.TextBox12.TabIndex = 20
+        Me.Txt_ABpos.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_ABpos.Location = New System.Drawing.Point(1174, 471)
+        Me.Txt_ABpos.Name = "Txt_ABpos"
+        Me.Txt_ABpos.Size = New System.Drawing.Size(90, 57)
+        Me.Txt_ABpos.TabIndex = 20
         '
-        'TextBox13
+        'Txt_Bpos
         '
-        Me.TextBox13.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox13.Location = New System.Drawing.Point(840, 477)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(90, 57)
-        Me.TextBox13.TabIndex = 21
+        Me.Txt_Bpos.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Bpos.Location = New System.Drawing.Point(840, 477)
+        Me.Txt_Bpos.Name = "Txt_Bpos"
+        Me.Txt_Bpos.Size = New System.Drawing.Size(90, 57)
+        Me.Txt_Bpos.TabIndex = 21
         '
         'Label5
         '
@@ -328,19 +328,19 @@ Partial Class Form5
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Txt_Bpos)
+        Me.Controls.Add(Me.Txt_ABpos)
+        Me.Controls.Add(Me.Txt_Oneg)
+        Me.Controls.Add(Me.Txt_Aneg)
+        Me.Controls.Add(Me.Txt_Bneg)
+        Me.Controls.Add(Me.Txt_ABneg)
+        Me.Controls.Add(Me.Txt_Apos)
+        Me.Controls.Add(Me.Txt_opos)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.BtnSave)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Txt_hphno)
+        Me.Controls.Add(Me.Txt_hadd)
+        Me.Controls.Add(Me.Txt_hname)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -356,19 +356,19 @@ Partial Class Form5
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Txt_hname As TextBox
+    Friend WithEvents Txt_hadd As TextBox
+    Friend WithEvents Txt_hphno As TextBox
     Friend WithEvents BtnSave As Button
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents Txt_opos As TextBox
+    Friend WithEvents Txt_Apos As TextBox
+    Friend WithEvents Txt_ABneg As TextBox
+    Friend WithEvents Txt_Bneg As TextBox
+    Friend WithEvents Txt_Aneg As TextBox
+    Friend WithEvents Txt_Oneg As TextBox
+    Friend WithEvents Txt_ABpos As TextBox
+    Friend WithEvents Txt_Bpos As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
