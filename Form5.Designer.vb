@@ -206,14 +206,11 @@ Partial Class Form5
         '
         'TextBox13
         '
-
         Me.TextBox13.Font = New System.Drawing.Font("Segoe UI", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox13.Location = New System.Drawing.Point(840, 477)
-
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(90, 57)
         Me.TextBox13.TabIndex = 21
-
         '
         'Label5
         '
