@@ -220,23 +220,13 @@ Partial Class Form5
         '
         'TextBox13
         '
-<<<<<<< HEAD
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(543, 550)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(347, 88)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Save"
-        Me.Button1.UseVisualStyleBackColor = False
-=======
+
         Me.TextBox13.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TextBox13.Location = New System.Drawing.Point(781, 477)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(69, 47)
         Me.TextBox13.TabIndex = 21
->>>>>>> 65c0fd78b70849c004be34490ff1f6d53c87fcb8
+
         '
         'Form5
         '
