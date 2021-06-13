@@ -4,7 +4,7 @@
 Public Class Form5
     'Varshaa - DESKTOP-1D4H6BI\SQLEXPRESS
     'Sri Vidhya - DESKTOP-TR3PCQ9\SQLEXPRESS
-    'Srindhi -
+    'Srindhi - LAPTOP-7IOC0O27\SQLEXPRESS
     'Sirisha - 
 
     Dim Connection As New SqlConnection("Server=LAPTOP-7IOC0O27\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
@@ -36,9 +36,7 @@ Public Class Form5
 
     End Sub
 
-    Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
     Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub

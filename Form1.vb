@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Form1
-    Dim Connection As New SqlConnection("Server=DESKTOP-1D4H6BI\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
+    Dim Connection As New SqlConnection("Server=LAPTOP-7IOC0O27\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
 
     'Private Sub btnOpositive_Click(sender As Object, e As EventArgs) Handles MyBase.Load
     'Dim adapter As New SqlDataAdapter("select Name,Address,Phone_Number from hospitals where O_Positive>0;", Connection)
