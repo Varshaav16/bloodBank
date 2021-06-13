@@ -35,4 +35,5 @@ Public Class Form1
         Me.Hide()
 
     End Sub
+
 End Class
