@@ -9,7 +9,7 @@ Public Class Form1
     'Srindhi - LAPTOP-7IOC0O27\SQLEXPRESS
     'Sirisha - 
 
-    Dim Connection As New SqlConnection("Server=DESKTOP-TR3PCQ9\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
+    Dim Connection As New SqlConnection("Server=DESKTOP-1D4H6BI\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
 
 
     'Private Sub btnOpositive_Click(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -66,7 +66,7 @@ Public Class Form1
         Me.Hide()
     End Sub
 
- Private Sub btnABpositive_Click(sender As Object, e As EventArgs) Handles btnABpositive.Click
+    Private Sub btnABpositive_Click(sender As Object, e As EventArgs) Handles btnABpositive.Click
         Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, AB_Positive from hospitals where AB_Positive>0;", Connection)
         Dim table As New DataTable()
 
@@ -84,9 +84,9 @@ Public Class Form1
         Form3.Show()
         Me.Hide()
     End Sub
-    
-    
-   Private Sub btnAnegative_Click(sender As Object, e As EventArgs) Handles btnAnegative.Click
+
+
+    Private Sub btnAnegative_Click(sender As Object, e As EventArgs) Handles btnAnegative.Click
         Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, A_Negative from hospitals where A_Negative>0;", Connection)
         Dim table As New DataTable()
 
@@ -95,7 +95,7 @@ Public Class Form1
         Form3.Show()
         Me.Hide()
     End Sub
-     Private Sub btnBnegative_Click(sender As Object, e As EventArgs) Handles btnBnegative.Click
+    Private Sub btnBnegative_Click(sender As Object, e As EventArgs) Handles btnBnegative.Click
         Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, B_Negative from hospitals where B_Negative>0;", Connection)
         Dim table As New DataTable()
 
@@ -104,7 +104,7 @@ Public Class Form1
         Form3.Show()
         Me.Hide()
     End Sub
-   
+
     Private Sub btnOnegative_Click(sender As Object, e As EventArgs) Handles btnOnegative.Click
         Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, O_Negative from hospitals where O_Negative>0;", Connection)
         Dim table As New DataTable()
