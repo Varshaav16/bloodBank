@@ -66,6 +66,52 @@ Public Class Form1
         Me.Hide()
     End Sub
 
+ Private Sub btnABpositive_Click(sender As Object, e As EventArgs) Handles btnABpositive.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, AB_Positive from hospitals where AB_Positive>0;", Connection)
+        Dim table As New DataTable()
 
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+    Private Sub btnABnegative_Click(sender As Object, e As EventArgs) Handles btnABnegative.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, AB_Negative from hospitals where AB_Negative>0;", Connection)
+        Dim table As New DataTable()
 
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+    
+    
+   Private Sub btnAnegative_Click(sender As Object, e As EventArgs) Handles btnAnegative.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, A_Negative from hospitals where A_Negative>0;", Connection)
+        Dim table As New DataTable()
+
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+     Private Sub btnBnegative_Click(sender As Object, e As EventArgs) Handles btnBnegative.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, B_Negative from hospitals where B_Negative>0;", Connection)
+        Dim table As New DataTable()
+
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+   
+    Private Sub btnOnegative_Click(sender As Object, e As EventArgs) Handles btnOnegative.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, O_Negative from hospitals where O_Negative>0;", Connection)
+        Dim table As New DataTable()
+
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
 End Class
