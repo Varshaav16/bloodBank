@@ -1,12 +1,16 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Form1
+
+
+
     'Varshaa - DESKTOP-1D4H6BI\SQLEXPRESS
     'Sri Vidhya - DESKTOP-TR3PCQ9\SQLEXPRESS
     'Srindhi - LAPTOP-7IOC0O27\SQLEXPRESS
     'Sirisha - 
 
     Dim Connection As New SqlConnection("Server=DESKTOP-TR3PCQ9\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
+
 
     'Private Sub btnOpositive_Click(sender As Object, e As EventArgs) Handles MyBase.Load
     'Dim adapter As New SqlDataAdapter("select Name,Address,Phone_Number from hospitals where O_Positive>0;", Connection)
@@ -61,5 +65,7 @@ Public Class Form1
         Form3.Show()
         Me.Hide()
     End Sub
+
+
 
 End Class
