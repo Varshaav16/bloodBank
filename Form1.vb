@@ -1,7 +1,15 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Form1
+
     Dim Connection As New SqlConnection("Server=LAPTOP-7IOC0O27\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
+
+    'Varshaa - DESKTOP-1D4H6BI\SQLEXPRESS
+    'Sri Vidhya - DESKTOP-TR3PCQ9\SQLEXPRESS
+    'Srindhi - LAPTOP-7IOC0O27\SQLEXPRESS
+    'Sirisha - 
+
+
 
     'Private Sub btnOpositive_Click(sender As Object, e As EventArgs) Handles MyBase.Load
     'Dim adapter As New SqlDataAdapter("select Name,Address,Phone_Number from hospitals where O_Positive>0;", Connection)
@@ -33,6 +41,30 @@ Public Class Form1
         Form3.DataGridViewHospital.DataSource = table
         Form3.Show()
         Me.Hide()
+
+    End Sub
+
+    Private Sub btnApositive_Click(sender As Object, e As EventArgs) Handles btnApositive.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, A_Positive from hospitals where A_Positive>0;", Connection)
+        Dim table As New DataTable()
+
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnBpositive_Click(sender As Object, e As EventArgs) Handles btnBpositive.Click
+        Dim adapter As New SqlDataAdapter("select Name, Address, Phone_Number, B_Positive from hospitals where B_Positive>0;", Connection)
+        Dim table As New DataTable()
+
+        adapter.Fill(table)
+        Form3.DataGridViewHospital.DataSource = table
+        Form3.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
     End Sub
 End Class
