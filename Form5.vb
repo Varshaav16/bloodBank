@@ -3,7 +3,7 @@
 
 Public Class Form5
 
-    Dim Connection As New SqlConnection("Server=DESKTOP-1D4H6BI\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
+    Dim Connection As New SqlConnection("Server=LAPTOP-7IOC0O27\SQLEXPRESS; Database=BloodBank; Integrated Security = true")
 
     Private Sub BtnSave_Click(sender As Object, e As EventArgs) Handles BtnSave.Click
 
@@ -30,4 +30,9 @@ Public Class Form5
 
         Connection.Close()
     End Sub
+    Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+
 End Class

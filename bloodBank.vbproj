@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>bloodBank</RootNamespace>
-    <StartupObject>bloodBank.Form5</StartupObject>
+    <StartupObject>bloodBank.Form1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
